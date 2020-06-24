@@ -97,6 +97,9 @@ public class Main {
                 System.out.println("Simple Measure of Gobbledygook: " + analyser.getScoreSMOG() + " (about "+ analyser.age(analyser.getScoreSMOG())  +" year olds).");
                 System.out.println("Coleman–Liau index: " + analyser.getScoreCL() + " (about "+ analyser.age(analyser.getScoreCL())  +" year olds).");
                 break;
+            default:
+                System.out.println("Chose one of the option indicated in bracket");
+                break;
         }
     }
 }
